@@ -13,3 +13,7 @@ I've also included all my personal slides setup, theming, and custom MDX compone
 Each presentation is a separate subfolder under `src/presentations` with its own MDX files. I've also got a common set of slide intros in `src/presentation/common/`, and mix those in to the start of each slide deck.
 
 I swap which presentation I'm showing by changing the slides import in `src/App.tsx`, and then hand-edit the `<title>` attribute in `public/index.html`.
+
+## Original Author of the Boilerplate
+
+Fork from [Mark Erikson](https://github.com/markerikson/rsbuild-spectacle-mdx-boilerplate)
