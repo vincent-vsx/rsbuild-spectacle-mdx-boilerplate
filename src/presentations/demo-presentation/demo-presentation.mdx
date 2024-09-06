@@ -3,71 +3,84 @@ import { Cite, Slide, Heading, Text, Box, FlexBox, Image, Appear, Markdown } fro
 import {LeftContentRightContent, LeftCodeRightContent, LeftCodeRightMarkdown, LeftContentRightMarkdown, LeftCodeRightCode, TitleDummy} from "components/layout";
 <!-- prettier-ignore-end -->
 
-# Spectacle Presentation (MDX) 👋
+# Courses
 
-This is a presentation that uses Spectacle and MDX for slides.
+- [Just JavaScript](https://justjavascript.com/) by Dan Abramov
+- [Lydia Hallie](https://www.lydiahallie.io/)
+- [ui.dev](https://ui.dev/)
+- [Epic React](https://www.epicreact.dev/) by Kent C Dodds
 
-Notes: These are presenter notes. This text will be automatically exported as `notes` from either your MDX file (e.g. `import {notes} from './my-file.mdx'`).
-
-
-
----
-
-#### React-Redux vNext?
-
-- Current version: v7.2
-  - Stable, no immediate plans for changes
-- Long-term question: Concurrent Mode and Suspense
-  - External state tools will have issues with Concurrent Mode because React wants to own state updates and reorder them
-  - React team created [new experimental `useMutableSource` hook](https://github.com/reactjs/rfcs/pull/147) specifically for use with external state tools like Redux
-- Will likely build React-Redux v8 around `useMutableSource` whenever CM finally is ready
-  - Not 100% sure that `connect` will be fully CM-compat (might just take extra work)
 
 ---
 
-import useDispatch from "./examples/useDispatch";
+# Just JavaScript
 
-#### React-Redux: `useDispatch()`
-
-<LeftCodeRightMarkdown leftSource={useDispatch}>{`
-- Returns the store's \`dispatch\` method
-- Differences from \`connect\` and \`mapDispatch\`:
-  - Equivalent to calling \`connect\` with no \`mapDispatch\` argument
-  - No "binding action creators" any more - up to you to call \`dispatch()\` in your own handlers
-`}</LeftCodeRightMarkdown>
-
----
-
-# Write your Spectacle Presentations in Markdown
-
-## And seamlessly use React Components
-
-**How sweet is that**
-**(super sweet)**
+- [Just JavaScript](https://justjavascript.com/) by [Dan Abramov](https://overreacted.io/)
+- A cute and detailed tutorial covering the most basic JavaScript concepts
+- Helps you build a mental model of JavaScript
+- Beautifully illustrated with text and images
+- Contain:
+  - Mental Models
+  - The JavaScript Universe
+  - Values and Variables
+  - Studying from the Inside
+  - Meeting the Primitive Values
+  - Meeting Objects and Functions
+  - Equality of Values
+  - Properties
+  - Mutation
+  - Prototypes
 
 ---
 
-![datboi](https://pbs.twimg.com/media/CkjFUyTXEAEysBY.jpg)
+# Lydia Hallie
+
+- [Web Site](https://www.lydiahallie.io/)
+- [Frontend Masters](https://frontendmasters.com/teachers/lydia-hallie/)
+- [YouTube](https://www.youtube.com/@theavocoder)
+- [GitHub](https://github.com/lydiahallie)
 
 ---
 
-###### Typography
+# ui.dev
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-Standard Text
+- [ui.dev](https://ui.dev/)
+- [YouTube](https://www.youtube.com/@uidotdev)
+- Contain:
+  - React.gg
+  - Query.gg
+  - React Router
+  - Modern JavaScript
+  - Advanced JavaScript
+  - TypeScript
+  - React w/ TypeScript
+  - Classic React
 
 ---
 
-> Example Quote
+# Epic React
+
+- [Epic React](https://www.epicreact.dev/tutorials/get-started-with-react) by [Kent C Dodds](https://kentcdodds.com/)
+- Contain:
+  - Welcome to Epic React
+  - React Fundamentals
+  - React Hooks
+  - Advanced React Hooks
+  - Advanced React Patterns
+  - React Performance
+  - Testing React Apps
+  - React Suspense
+  - Build an Epic React App
+
+---
+
+# How to Practice
+
+- [CodeSandbox](https://codesandbox.io/)
+
+---
+
+<TitleDummy />
+
+# Thank You!
 

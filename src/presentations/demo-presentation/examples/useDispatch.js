@@ -16,7 +16,7 @@ export const AddPostForm = () => {
     <section>
       <h2>Add a New Post</h2>
       <form>
-        {/* omit form inputs */}
+        {/* omit form inputs haha */}
         <button type="button" onClick={onSavePostClicked}>
           Save Post
         </button>
